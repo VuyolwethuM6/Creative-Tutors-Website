@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Tutors - Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- The hearder that contains navigation bar -->
+    <header>
+        <nav class="navbar">
+            <h1>Creative Tutor's</h1>
+            <ul>
+                <li id="enrol"><a href="enrol.html"> Enroll Now! </a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#faq">FAQ's</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- The Main part of the webpage devided into sections -->
+    <main>
+    <section id="home" class="homepage">
+        <div class="blur-background">
+            <!-- Background image goes here -->
+        </div>
+        <div class="content">
+            <h1>Unlock Your Potential with Creative Tutors!</h1>
+            <!-- <img src="images/tutoring-chalkboard.webp" alt="Catchy Phrase" class="catchy-image" width="400px"> -->
+            <p class="catchy-text">
+              Welcome to Creative Tutors, where potential becomes power! <br>Our passion lies in nurturing young minds, igniting 
+              curiosity, and fostering a love for learning. With a team of dedicated educators, we believe that every student is a 
+              unique masterpiece, and our mission is to unlock their full potential. From personalized one-on-one sessions to dynamic
+              group collaborations, we're here to guide, inspire, and empower students on their educational journey.
+              Join us in discovering the joy of learning, the thrill of growth, and the magic of turning dreams into reality. 
+              At Creative Tutors, success is not just a destination – it's a way of life!
+            </p>
+        </div>
+    </section>
+
+    <!-- -->
+    <section id="services" class="services-section">
+        <div class="services-bg">
+          <!-- Background image or color goes here -->
+        </div>
+        <div class="services-content">
+            <h2>Our Services</h2>
+
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0lbzmZeS-BY" title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+            </div>
+            <p class="services-description">
+              At Creative Tutors, we are dedicated to helping students excel academically. Our range of services includes one-on-one tutoring, 
+              group study sessions, test preparation, and subject-specific assistance. Whether you need help with math, science, language arts,
+              or other subjects, our team of experienced tutors is here to guide you every step of the way
+            </p>
+
+            <div class="audios">
+                <audio controls>
+                    <source src="files/HTML.mp3" type="audio/mpeg">
+                </audio>
+                <audio controls>
+                    <source src="files/CSS.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="images/malik.jpeg" alt="Team Member 1">
+                    <h3>Malik Malope</h3>
+                    <p>Team Member</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/kat.jpeg" alt="Team Member 2">
+                    <h3>Katlego Nnandi</h3>
+                    <p>Team Member</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/hombisa.jpeg" alt="Team Member 3">
+                    <h3>Hombisa Dyasi</h3>
+                    <p>Team Member</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/tina.jpeg" alt="Team Member 4">
+                    <h3>Tina Qutsu</h3>
+                    <p>Team Member</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/vuyo.jpg" alt="Team Member 5">
+                    <h3>Vuyolwethu Mabhuleka</h3>
+                    <p>Team Member</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-timetable">
+          <h2>Session Timetable</h2>
+          <!-- Timetable content goes here -->
+          <table>
+            <tr>
+              <th>Day</th>
+              <th>Available Times</th>
+            </tr>
+            <tr>
+              <td>Monday</td>
+              <td>9:00 AM - 12:00 PM</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>1:00 PM - 4:00 PM</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>10:00 AM - 1:00 PM</td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </table> 
+        </div>
+        <div class="contact-form">
+            <h2> Get in Touch </h2>
+
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+      </section>
+
+      <section id="faq" class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3 class="question">Question 1: What subjects do you offer tutoring for?</h3>
+            <p class="answer">We offer tutoring in mathematics, science, language arts, and more. Our experienced tutors cover a wide range of subjects.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="question">Question 2: How do I enroll in your tutoring sessions?</h3>
+            <p class="answer">Enrolling is easy! Simply visit our "Enrol Now" page and fill out the enrollment form. We'll get in touch with you to finalize the details.</p>
+          </div>
+          <!-- Add more FAQ items as needed -->
+          <div class="faq-item">
+            <h3 class="question">Question 3: Are your tutors certified and experienced?</h3>
+            <p class="answer">Yes, all of our tutors are certified professionals with extensive experience in their respective fields. They are dedicated to helping students succeed.</p>
+          </div>
+          <div class="faq-item">
+            <h3 class="question">Question 4: What is the class size for each tutoring session?</h3>
+            <p class="answer">We believe in providing personalized attention to each student, so our class sizes are kept small to ensure effective learning. Typically, each session accommodates up to 5 students.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- The footer for additional information  -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Creative Innovators. All rights reserved.</p>
+        </div>
+        <div class="back-to-top">
+            <a href="#top">Back to Top</a>
+          </div>
+    </footer>
+
+</body>
+</html>

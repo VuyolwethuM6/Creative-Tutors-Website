@@ -1,0 +1,308 @@
+/* Reset some default styles */
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #050505;
+    color: #fff;
+    display: block;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 44px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+  
+ul li {
+    margin: 0 15px;
+}
+  
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+#enrol{
+    background-color: #3b8fe9;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ul a:hover {
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}/* End of the Header section styling */
+
+.homepage {
+    position: relative;
+    height: 100vh;
+}
+
+.blur-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/tutor.jpg');
+    filter: blur(3px);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(216, 241, 238, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.content h1{
+    font-size: 44px;
+    font-weight: bolder;
+    color: rgb(14, 16, 17);
+}
+   
+.catchy-text {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 12px;
+}
+
+.services-section {
+    background: rgba(216, 241, 238, 0.2);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.services-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.video {
+    margin-top: 20px;
+}
+  
+.services-description {
+    font-size: 18px;
+    margin-top: 20px;
+}
+  
+.audios {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.audio {
+    margin: 0 10px;
+}
+
+/* Our Team Section Styling */
+
+#team {
+    text-align: center;
+    background: rgba(216, 241, 238, 0.2);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+}
+
+/* */
+
+.faq-section {
+    background: rgba(216, 241, 238, 0.2);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.answer {
+    margin-top: 5px;
+}
+
+/**/
+
+.contact-timetable table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+    
+.contact-timetable th,
+ .contact-timetable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+    
+.contact-timetable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+    
+.contact-timetable tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.contact-section {
+    background: rgba(216, 241, 238, 0.2);
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+.contact-timetable,
+.contact-form {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.contact-form label {
+    font-weight: bold;
+  }
+  
+.contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.contact-timetable,
+  .contact-form {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.contact-form label {
+    font-weight: bold;
+}
+  
+.contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+
+/*Styling the footer section*/
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+    
+.back-to-top a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+    
+.back-to-top a:hover {
+    background-color: #555;
+}
