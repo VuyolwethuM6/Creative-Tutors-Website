@@ -1,0 +1,127 @@
+/* Enroll Now Page Styles */
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #050505;
+    color: #fff;
+    display: block;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 44px;
+    margin-right: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+  
+ul li {
+    margin: 0 15px;
+}
+  
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+ul a:hover {
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.enroll-section{
+    background: rgba(216, 241, 238, 0.2);
+}
+  
+.enroll-heading {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+  
+.enroll-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+  
+.enroll-form label {
+    font-weight: bold;
+}
+  
+.enroll-form input,
+  .enroll-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+.enroll-form textarea {
+    height: 120px;
+  }
+  
+.enroll-form button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Adjust the color for the "Back to Top" button */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+    
+.back-to-top a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+    
+.back-to-top a:hover {
+    background-color: #555;
+}
