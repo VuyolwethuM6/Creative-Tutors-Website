@@ -34,7 +34,7 @@ We welcome contributions! If you'd like to contribute to the development of this
 
 ## Contact
 If you have any questions, suggestions, or issues, feel free to reach out to us:
-- Email: [your-email@example.com](mailto:your-email@example.com)
+- Email: [your-email@example.com](mailto:creativetutors@gmail.com)
 - Website: [https://creative-tutors-website.netlify.app/contact](https://creative-tutors-website.netlify.app/#contact)
 
 Thank you for visiting our website and your interest in Creative Tutors!
